@@ -1,0 +1,58 @@
+DBMS mini project:
+Resort management system
+
+1] Guest
+2] Room
+3] Staff
+4] Reservation
+5] Inventory
+6] Billing
+
+
+1] Guest:
+guest id 
+name
+contact no.
+preference of room(normal,suit,etc.)
+email id
+expenditure
+no. of people along
+
+2]Room :
+room no.
+room availability status
+capacity
+amenities
+type of room
+
+3] Reservations :
+reservation id
+guest id(foreign key)
+room no.
+check-in check-out dates
+room reserved
+special request
+
+4] Staff :
+staff id
+name 
+role
+contact
+schedule
+
+5] Inventory(food,beverage,toiletries,and supplies,etc.) :
+item no.
+price
+name
+quantity
+amount
+
+6] Billing :
+bill id 
+guest id
+charges
+payment status
+payment mode
+date
+
+
